@@ -1,26 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     background-image: url('./Assets/Hero-bg.png');
     height: 698px;
 }
-nav{
+
+nav {
     display: flex;
     max-width: 1140px;
     height: 151px;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
-.logo{
-    color:#4E47FF;
+
+.logo {
+    color: #4E47FF;
     font-size: 34px;
     font-weight: 900;
     font-family: "Inter", sans-serif;
 }
-.button{
+
+.button {
     font-family: "Raleway", sans-serif;
     background-color: #4E47FF;
     color: white;
@@ -30,15 +34,94 @@ nav{
     border: none;
     border-radius: 10px;
 }
-.banner{
+
+.banner {
     max-width: 905px;
     margin: 158px auto;
     text-align: center;
 }
-.banner-title{
-        font-family: "Raleway", sans-serif;
-        font-size: 65px;
-        font-weight: 700;
-        margin-bottom: 37px;
-        color: #252432;
+
+.banner-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+    color: #252432;
+}
+
+.webflow {
+    max-width: 1140px;
+    margin: 114px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.webflow-details {
+    margin: 63px 0;
+    max-width: 517px;
+}
+
+.webflow-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 23px;
+    color: #252432;
+
+
+}
+
+.webflow-description {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #252432;
+    opacity: 0.5;
+    margin-bottom: 23px;
+
+}
+
+.webflow-img {
+    border-radius: 48px;
+    height: 100%;
+}
+
+.joined {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #4d47ff25;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.joined-title {
+    padding-top: 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    color: #252432;
+    font-weight: 700;
+
+}
+
+.joined-user {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.joined-heading {
+    margin-top: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.joined-description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 50px;
+
 }
