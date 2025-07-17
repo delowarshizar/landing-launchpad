@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: rgba(174, 200, 217, 0.101);
+}
+
 header {
     background-image: url('./Assets/Hero-bg.png');
     height: 698px;
@@ -124,4 +128,97 @@ nav {
     opacity: 0.5;
     margin-bottom: 50px;
 
+}
+
+.review {
+    max-width: 1140px;
+    margin: 140px auto;
+}
+
+.users {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-review {
+    display: flex;
+    padding-left: 24px;
+}
+
+.user-info {
+    margin-left: 6px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.user {
+    max-width: 367px;
+    height: 243px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px #F2EDED;
+    border-radius: 14px;
+}
+
+.review>h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 50px;
+}
+
+.star {
+    padding: 24px;
+}
+
+.review-details {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.review-title {
+    padding-left: 24px;
+    padding-bottom: 8px;
+    font-family: "Raleway", sans-serif;
+}
+
+.user-review>img {
+    border-radius: 50%;
+}
+
+.user-name {
+    opacity: 0.75;
+}
+
+.user-date {
+    opacity: 0.5;
+
+}
+.focus{
+    border-radius: 14px;
+    background-color: white;
+    max-width: 1140px;
+    height: 697px;
+    margin: 0 auto;
+    text-align: center;
+}
+.focus-heading{
+    padding-top: 71px;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:#000000;
+}
+.focus-details{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    
+}
+.focus > img{
+    margin-top: 20px;
+    border-radius: 48px;
 }
